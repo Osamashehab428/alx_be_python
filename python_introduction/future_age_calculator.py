@@ -1,6 +1,6 @@
-print("How old are you?")
+ 
 
-age = int(input())
+age = int(input("How old are you?"))
 
 currentage = age + 27
 
