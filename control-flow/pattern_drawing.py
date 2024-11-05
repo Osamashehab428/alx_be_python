@@ -5,7 +5,7 @@ i=0
 while i <size:
     for i in range(size):
         print("*", end="")
-        i += 1
+    i += 1
 
 
 
