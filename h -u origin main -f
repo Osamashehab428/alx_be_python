@@ -1,0 +1,208 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mdeleted file mode 100644[m
+[1mindex 8996cf1..0000000[m
+[1m--- a/README.md[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-# alx_be_python[m
+\ No newline at end of file[m
+[1mdiff --git a/fns_and_dsa/Method.py b/fns_and_dsa/Method.py[m
+[1mdeleted file mode 100644[m
+[1mindex afc82cf..0000000[m
+[1m--- a/fns_and_dsa/Method.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,4 +0,0 @@[m
+[31m-def Method():[m
+[31m-    print("Hello World")[m
+[31m-[m
+[31m-Method()[m
+\ No newline at end of file[m
+[1mdiff --git a/fns_and_dsa/arithmetic_operations.py b/fns_and_dsa/arithmetic_operations.py[m
+[1mdeleted file mode 100644[m
+[1mindex a7efebe..0000000[m
+[1m--- a/fns_and_dsa/arithmetic_operations.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,29 +0,0 @@[m
+[31m-def  perform_operations(num1 = float(input()),[m
+[31m-                          num2 = float(input()),[m
+[31m-                          operation = input("+","-","*","/")):[m
+[31m-    print("Arithmetic operation")[m
+[31m-    num1 = float(input())[m
+[31m-    num2 = float(input())[m
+[31m-    if operation == "+":[m
+[31m-        print(num1+num2)[m
+[31m-    elif operation == "-":[m
+[31m-        print(num1 - num2)[m
+[31m-    elif operation == "*":[m
+[31m-        print(num1 * num2)[m
+[31m-    elif operation == "/":[m
+[31m-        print(num1/num2)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-perform_operations()[m
+[31m-[m
+[31m- [m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[1mdiff --git a/fns_and_dsa/shopping_list_manager.py b/fns_and_dsa/shopping_list_manager.py[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/fns_and_dsa/temp_conversion_tool.py b/fns_and_dsa/temp_conversion_tool.py[m
+[1mdeleted file mode 100644[m
+[1mindex 0633a21..0000000[m
+[1m--- a/fns_and_dsa/temp_conversion_tool.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,17 +0,0 @@[m
+[31m-FAHRENHEIT_TO_CELSIUS_FACTOR =  5/9[m
+[31m-CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5[m
+[31m- [m
+[31m-def convert_Temp():[m
+[31m-    print("Enter the temperature to convert: ")[m
+[31m-    Temp = float(input())[m
+[31m-    print("Is this temperature in Celsius or Fahrenheit? (C/F): ")[m
+[31m-    TypeOfTemp = input()[m
+[31m-    match TypeOfTemp:[m
+[31m-        case 'F':[m
+[31m-            print(FAHRENHEIT_TO_CELSIUS_FACTOR * Temp -32)[m
+[31m-        case 'C':[m
+[31m-            print((CELSIUS_TO_FAHRENHEIT_FACTOR * Temp)- 32)[m
+[31m-[m
+[31m-convert_Temp()[m
+[31m-[m
+[31m- [m
+[1mdiff --git a/control-flow/match_case_calculator.py b/match_case_calculator.py[m
+[1msimilarity index 100%[m
+[1mrename from control-flow/match_case_calculator.py[m
+[1mrename to match_case_calculator.py[m
+[1mdiff --git a/control-flow/multiplication_table.py b/multiplication_table.py[m
+[1msimilarity index 100%[m
+[1mrename from control-flow/multiplication_table.py[m
+[1mrename to multiplication_table.py[m
+[1mdiff --git a/control-flow/pattern_drawing.py b/pattern_drawing.py[m
+[1msimilarity index 100%[m
+[1mrename from control-flow/pattern_drawing.py[m
+[1mrename to pattern_drawing.py[m
+[1mdiff --git a/python_introduction/basic_operations.py b/python_introduction/basic_operations.py[m
+[1mdeleted file mode 100644[m
+[1mindex 2136779..0000000[m
+[1m--- a/python_introduction/basic_operations.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,20 +0,0 @@[m
+[31m-number1 = 10[m
+[31m-number2 = 5[m
+[31m-[m
+[31m-print("Addition of 10 and 5 is: ",number1 + number2)[m
+[31m-print("Subtraction of 10 and 5 is: ",number1 - number2)[m
+[31m-print("Multiplication of 10 and 5 is: ",number1 * number2)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[1mdiff --git a/python_introduction/finance_calculator.py b/python_introduction/finance_calculator.py[m
+[1mdeleted file mode 100644[m
+[1mindex 9af99c5..0000000[m
+[1m--- a/python_introduction/finance_calculator.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,12 +0,0 @@[m
+[31m-monthly_income = int(input("Enter your monthly income: "))[m
+[31m-monthly_expenses = int(input("Enter your monthly expenses: "))[m
+[31m-[m
+[31m-monthly_savings = monthly_income - monthly_expenses[m
+[31m-[m
+[31m-Projectedsavings = ((monthly_expenses  * 12) + (monthly_savings * 12 * 0.05))[m
+[31m-[m
+[31m-print("Projected savings after one year, with interest, is: ", Projectedsavings)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[1mdiff --git a/python_introduction/future_age_calculator.py b/python_introduction/future_age_calculator.py[m
+[1mdeleted file mode 100644[m
+[1mindex 70a46c7..0000000[m
+[1m--- a/python_introduction/future_age_calculator.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m- [m
+[31m-[m
+[31m-age = int(input("How old are you?"))[m
+[31m-[m
+[31m-currentage = age + 27[m
+[31m-[m
+[31m-print("In 2050 you will be ",currentage,"years old")[m
+[31m-[m
+[1mdiff --git a/python_introduction/future_age_calcutor.py b/python_introduction/future_age_calcutor.py[m
+[1mdeleted file mode 100644[m
+[1mindex f15fa27..0000000[m
+[1m--- a/python_introduction/future_age_calcutor.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-print("How old are you?")[m
+[31m-[m
+[31m-age = int(input())[m
+[31m-[m
+[31m-currentage = age + 27[m
+[31m-[m
+[31m-print("In 2050 you will be ",currentage,"years old")[m
+[31m-[m
+[1mdiff --git a/python_introduction/hours_to_seconds.py b/python_introduction/hours_to_seconds.py[m
+[1mdeleted file mode 100644[m
+[1mindex db489c9..0000000[m
+[1m--- a/python_introduction/hours_to_seconds.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,5 +0,0 @@[m
+[31m-hours = 2[m
+[31m-seconds = hours * 3600[m
+[31m-[m
+[31m-print(hours," hour(s) is", seconds," seconds.")[m
+[31m-[m
+[1mdiff --git a/python_introduction/rectangle_area.py b/python_introduction/rectangle_area.py[m
+[1mdeleted file mode 100644[m
+[1mindex 618c094..0000000[m
+[1m--- a/python_introduction/rectangle_area.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,7 +0,0 @@[m
+[31m-length = 10[m
+[31m-width = 5[m
+[31m-[m
+[31m-area = length * width[m
+[31m-[m
+[31m-print("The area of the rectangle is: ",area)[m
+[31m-[m
+[1mdiff --git a/python_introduction/simple_interest.py b/python_introduction/simple_interest.py[m
+[1mdeleted file mode 100644[m
+[1mindex 9353b40..0000000[m
+[1m--- a/python_introduction/simple_interest.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,10 +0,0 @@[m
+[31m-principal = 1000[m
+[31m-rate = 0.05[m
+[31m-time = 3[m
+[31m-[m
+[31m-interest = principal*rate*time[m
+[31m-[m
+[31m-print("The simple interest is:",interest)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[1mdiff --git a/control-flow/weather_advice.py b/weather_advice.py[m
+[1msimilarity index 100%[m
+[1mrename from control-flow/weather_advice.py[m
+[1mrename to weather_advice.py[m
