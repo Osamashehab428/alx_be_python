@@ -15,8 +15,9 @@ def convert_to_fahreheit(celsius):
  
 type_of_temp = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
 
-match type_of_temp:
-    case "C": convert_to_fahreheit(0)
-    case "F": convert_to_celsius(0)
+if  type_of_temp == "C":
+    convert_to_fahreheit(0)
+elif type_of_temp == "F": convert_to_celsius(0)
+else: print("Invalid temperature")
 
 
